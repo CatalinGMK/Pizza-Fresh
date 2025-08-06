@@ -1,0 +1,170 @@
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title></title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #d35400;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+    }
+    nav {
+      background-color: #e67e22;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      border-bottom: 2px solid #d35400;
+      padding-bottom: 0.3rem;
+      margin-bottom: 1rem;
+      color: #d35400;
+    }
+    ul.menu-list {
+      list-style: none;
+      padding: 0;
+    }
+    ul.menu-list li {
+      background: white;
+      margin-bottom: 1rem;
+      padding: 1rem;
+      border-radius: 6px;
+      box-shadow: 0 2px 5px rgb(0 0 0 / 0.1);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    ul.menu-list li span.name {
+      font-weight: bold;
+    }
+    ul.menu-list li span.price {
+      color: #d35400;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem 0;
+      background: #e67e22;
+      color: white;
+      margin-top: 3rem;
+    }
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        gap: 1rem;
+      }
+      ul.menu-list li {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      ul.menu-list li span.price {
+        margin-top: 0.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Pizza Fresh</h1>
+    <p>Gustul fresh e specialitatea noastra </p>
+  </header>
+
+  <nav>
+    <a href="#Pizza">Pizza</a>
+    <a href="#Pizza Felie">Pizza Felie</a>
+    <a href="#Meniuri">Meniuri</a>
+    <a href="#Platouri">Platouri</a>
+  </nav>
+
+  <main>
+    <section id="Pizza">
+      <h2>Pizza</h2>
+      <ul class="menu-list">
+        <li><span class="name">Fresh</span><span class="price">28 RON</span></li>
+        <li><span class="name">Cremosa</span><span class="price">28 RON</span></li>
+        <li><span class="name">Speciala</span><span class="price">28 RON</span></li>
+                <li><span class="name">Cartofi</span><span class="price">28 RON</span></li>
+                <li><span class="name">Carnivora</span><span class="price">28 RON</span></li>
+                <li><span class="name">Diavolo</span><span class="price">28 RON</span></li>
+                <li><span class="name">Piept de Pui</span><span class="price">28 RON</span></li>
+                <li><span class="name">Prosciutto Salami</span><span class="price">28 RON</span></li>
+                <li><span class="name">Salami</span><span class="price">28 RON</span></li>
+                <li><span class="name">Taraneasca</span><span class="price">28 RON</span></li>
+                <li><span class="name">Ton</span><span class="price">28 RON</span></li>
+                <li><span class="name">Vegetariana/Post</span><span class="price">26 RON</span></li>
+                <li><span class="name">Prosciutto Funghi</span><span class="price">26 RON</span></li>
+                <li><span class="name">Margherita</span><span class="price">26 RON</span></li>
+                <li><span class="name">Quattro Stagioni</span><span class="price">28 RON</span></li>
+                <li><span class="name">Quattro Formaggi</span><span class="price">30 RON</span></li>
+                <li><span class="name">Romana</span><span class="price">26 RON</span></li>
+                <li><span class="name">Foccacia Parmezan</span><span class="price">15 RON</span></li>
+                <li><span class="name">Foccacia Mozzarella</span><span class="price">15 RON</span></li>
+                <li><span class="name">Turtita Cascaval</span><span class="price">15 RON</span></li>
+
+      </ul>
+    </section>
+
+    <section id="Pizza Felie">
+      <h2>Pizza Felie</h2>
+      <ul class="menu-list">
+        <li><span class="name">Fresh Sau Cremosa</span><span class="price">8 RON</span></li>
+       
+      </ul>
+    </section>
+
+    <section id="Meniuri">
+      <h2>Meniuri</h2>
+      <ul class="menu-list">
+        <li><span class="name">Pastrama Oaie</span><span class="price">40 RON</span></li>
+        <li><span class="name">Ceafa Porc</span><span class="price">30 RON</span></li>
+        <li><span class="name">Pulpa Pui Dezosata</span><span class="price">30 RON</span></li>
+        <li><span class="name">Meniu Mici</span><span class="price">30 RON</span></li>
+        <li><span class="name">Hamsie</span><span class="price">20 RON</span></li>
+      </ul>
+    </section>
+
+    <section id="Platouri">
+      <h2>Platouri</h2>
+      <ul class="menu-list">
+        <li><span class="name">Platou Fresh(5)</span><span class="price">200 RON</span></li>
+        <li><span class="name">Platou 4Pers</span><span class="price">170 RON</span></li>
+        <li><span class="name">Platou 2Pers</span><span class="price">130RON</span></li>  
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2019 Pizza Fresh - Toate drepturile rezervate
+  </footer>
+
+</body>
+</html>
